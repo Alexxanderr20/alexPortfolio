@@ -22,9 +22,17 @@ img {
 }
 
 header {
-    background-color: #333;
+    overflow: hidden;
+    top: 60%;
+    left: 50%;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
     color: #fff;
-    padding: 10px 0;
+    padding: 15px;
+    border: 1px black solid;
+    border-radius: 2rem;
 }
 
 nav ul {
@@ -33,7 +41,16 @@ nav ul {
     padding: 0;
 }
 
+nav y {
+    float: left;
+    margin-top: 10px;
+}
+
 nav ul li {
+    z-index: 10;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
     display: inline;
     margin-right: 20px;
 }
@@ -41,6 +58,9 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #fff;
+}
+nav a:hover {
+    color: #ccc;
 }
 
 section {
@@ -53,4 +73,18 @@ h1 {
 
 h2 {
     font-size: 30px
+}
+
+h2 a:link {
+    color: #fff;
+}
+
+footer {
+    margin: auto;
+    width: 75%;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+    text-align: center;
 }
