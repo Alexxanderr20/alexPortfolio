@@ -101,11 +101,15 @@ section {
 }
 
 h1 {
-    font-size: 40px
+    font-size: 60px
 }
 
 h2 {
-    font-size: 30px
+    font-size: 45px
+}
+
+p {
+    font-size: 20px
 }
 
 a:hover {
@@ -154,10 +158,9 @@ a link:visited{
 object {
     margin: auto;
     margin-top: 5%;
-    width: 32%;
     background-color: black;
     color: #fff;
-    padding: 6px;
+    padding: 8px;
     border-radius: 2rem;
     text-align: center;
 }
