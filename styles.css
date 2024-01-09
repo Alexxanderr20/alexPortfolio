@@ -101,8 +101,8 @@ nav a:hover {
     margin: 5%;
     padding: 22%;
     width: 90%;
-    background-color: silver;
-    color: black;
+    background-color: rgb(78, 78, 78);
+    color: white;
     border-radius: 2rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
