@@ -101,7 +101,7 @@ nav a:hover {
     margin: 5%;
     padding: 22%;
     width: 90%;
-    background-color: rgb(78, 78, 78);
+    /* background-color: rgb(78, 78, 78); */
     color: white;
     border-radius: 2rem;
     text-align: center;
@@ -121,7 +121,8 @@ h2 {
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 a:hover {
@@ -132,12 +133,11 @@ a link:visited{
     color: #fff;
 }
 
-/* #tech-skill-div
-{
-    margin: auto;
-    padding: 2%;
-    background-color: lavender;
-} */
+object {
+    margin: 8px;
+    border-radius: 2rem;
+    text-align: center;
+}
 
 #tech-skills {
     margin: auto;
@@ -186,6 +186,7 @@ footer {
     border-radius: 1rem;
     text-align: center;
 }
+
 
 
 .bd-placeholder-img {
