@@ -97,16 +97,27 @@ nav a:hover {
     text-align: center;
 }
 
+#intro-container {
+  margin: 24%;
+}
+
+#intro-button {
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 15px;
+  color: mediumspringgreen;
+  background-color: black;
+  border: mediumspringgreen, 2.5px;
+}
+
 #intro-heading {
-    margin: 5%;
-    padding: 22%;
-    width: 90%;
-    /* background-color: rgb(78, 78, 78); */
-    color: white;
+    /* padding: 22%;
+    width: 90%; */
+    font-size: 25px;;
+    color: mediumspringgreen;
     border-radius: 2rem;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  }
 
 section {
     padding: 10px;
