@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 #intro-container {
-  margin: 24%;
+  margin: 10%; 
 }
 
 #intro-button {
@@ -107,13 +107,15 @@ nav a:hover {
   font-size: 15px;
   color: mediumspringgreen;
   background-color: black;
-  border: mediumspringgreen, 2.5px;
+  border-radius: 20px;
+  border: 5px solid mediumspringgreen;
 }
 
 #intro-heading {
     /* padding: 22%;
     width: 90%; */
-    font-size: 25px;;
+    padding: 5%;
+    font-size: 35px;;
     color: mediumspringgreen;
     border-radius: 2rem;
     text-align: center;
@@ -147,6 +149,16 @@ a link:visited{
 object {
     margin: 8px;
     border-radius: 2rem;
+    text-align: center;
+}
+
+#about-me {
+    margin-top: 55%;
+    width: 90%;
+    background-color: black;
+    color: #fff;
+    padding: 7px;
+    border-radius: 1rem;
     text-align: center;
 }
 
