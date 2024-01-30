@@ -63,6 +63,20 @@ nav a:hover {
     color: #ccc;
 }
 
+#nav-left {
+    margin: auto;
+    text-align: left;
+    color: mediumspringgreen;
+    font-size: 19px;
+}
+
+#nav-top {
+    margin: auto;
+    text-align: right;
+    color: mediumspringgreen;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 #about {
     margin: auto;
@@ -114,7 +128,7 @@ nav a:hover {
 #intro-heading {
     /* padding: 22%;
     width: 90%; */
-    padding: 5%;
+    padding: 2%;
     font-size: 35px;;
     color: mediumspringgreen;
     border-radius: 2rem;
@@ -202,15 +216,22 @@ object {
 
 footer {
     margin: auto;
-    width: 75%;
+    /* width: 75%; */
     background-color: black;
     color: #fff;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 1rem;
     text-align: center;
 }
 
-
+#footer-section {
+    margin-top: 30%;
+    /* width: 85%; */
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+}
 
 .bd-placeholder-img {
     font-size: 1.125rem;
